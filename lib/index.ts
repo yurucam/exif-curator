@@ -1,4 +1,5 @@
-import * as ExifReader from "exifreader";
-import * as piexif from "piexifjs";
+import { dumpExifMetadata } from "./functions/dump-exif-metadata";
+import { loadExifMetadata } from "./functions/load-exif-metadata";
+import { replaceExifMetadata } from "./functions/replace-exif-metadata";
 
-export { ExifReader, piexif };
+export { dumpExifMetadata, replaceExifMetadata, loadExifMetadata };
