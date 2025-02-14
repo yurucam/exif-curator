@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "exif-curator",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "💾 Preserve and read original image EXIF metadata.",
   "license": "MIT",
   "repository": {

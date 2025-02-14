@@ -1,5 +1,7 @@
 # exif-curator
 
+💾 Preserve and read original image EXIF metadata.
+
 Install:
 
 ```sh
