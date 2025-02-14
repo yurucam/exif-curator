@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "exif-curator",
-  "version": "0.1.1",
+  "version": "0.1.5",
   "description": "💾 Preserve and read original image EXIF metadata.",
   "license": "MIT",
   "repository": {
@@ -9,19 +9,8 @@
     "url": "https://github.com/yurucam/exif-curator"
   },
   "author": "YURUCAM",
-  "main": "dist/index.cjs",
-  "module": "dist/index.mjs",
-  "unpkg": "dist/index.min.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs",
-      "node": "./dist/index.mjs",
-      "default": "./dist/index.mjs",
-      "types": "./dist/index.d.ts"
-    }
-  },
   "files": [
     "dist"
   ],
